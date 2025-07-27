@@ -2,6 +2,11 @@
 
 A Yeoman generator for scaffolding React + TypeScript + Vite projects with ESLint, Prettier, optional Tailwind CSS, and Screaming Architecture.
 
+## Requirements
+
+- Node.js 22+
+- npm 10+
+
 ## Quick Start
 
 ```bash
