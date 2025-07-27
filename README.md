@@ -43,7 +43,7 @@ Screaming Architecture organizes code by business domain rather than technical l
 
 **Generated projects include:**
 
-- **React 18.3** with TypeScript 5.7 and modern hooks
+- **React 19.0** with TypeScript 5.7 and modern hooks
 - **Vite 6.x** for fast development and optimized builds
 - **ESLint 9** with React, TypeScript, and hooks rules
 - **Prettier 3.x** for consistent code formatting

@@ -1,6 +1,6 @@
 {
   "name": "generator-screaming-bones",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A generator for scaffolding React + TypeScript + Vite projects with Screaming Architecture",
   "main": "generators/app/index.js",
   "files": [
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/AngelCodes95/generator-screaming-bones",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AngelCodes95/generator-screaming-bones.git"
+    "url": "git+https://github.com/AngelCodes95/generator-screaming-bones.git"
   },
   "bugs": {
     "url": "https://github.com/AngelCodes95/generator-screaming-bones/issues"
