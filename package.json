@@ -1,0 +1,47 @@
+{
+  "name": "generator-screaming-bones",
+  "version": "0.1.0",
+  "description": "A generator for scaffolding React + TypeScript + Vite projects with Screaming Architecture",
+  "main": "generators/app/index.js",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "react",
+    "typescript",
+    "vite",
+    "screaming-architecture",
+    "scaffold",
+    "boilerplate",
+    "eslint",
+    "prettier",
+    "tailwind"
+  ],
+  "author": "Angel Vazquez",
+  "license": "MIT",
+  "homepage": "https://github.com/AngelCodes95/generator-screaming-bones",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AngelCodes95/generator-screaming-bones.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AngelCodes95/generator-screaming-bones/issues"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yeoman-generator": "^7.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.4.2"
+  },
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "format:check": "prettier --check \"**/*.{js,json,md}\"",
+    "lint": "eslint . --fix",
+    "lint:check": "eslint .",
+    "test": "node test/simple-test.js"
+  }
+}
