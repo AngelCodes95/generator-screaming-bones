@@ -2,6 +2,12 @@
 
 A Yeoman generator for scaffolding React + TypeScript + Vite projects with ESLint, Prettier, optional Tailwind CSS, and Screaming Architecture.
 
+## Architecture Philosophy
+
+Screaming Architecture organizes code by business domain rather than technical layers. The folder structure communicates what the application does. Features are self-contained modules, making the codebase maintainable and domain-focused.
+
+About screaming architecture: https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
+
 ## Requirements
 
 - Node.js 22+
@@ -34,10 +40,6 @@ yo screaming-bones
 - [Testing Strategy](#testing-strategy)
 - [Process Flow Diagram](#process-flow-diagram)
 - [License](#license)
-
-## Architecture Philosophy
-
-Screaming Architecture organizes code by business domain rather than technical layers. The folder structure communicates what the application does. Features are self-contained modules, making the codebase maintainable and domain-focused.
 
 ## Features
 

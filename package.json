@@ -1,6 +1,6 @@
 {
   "name": "generator-screaming-bones",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A generator for scaffolding React + TypeScript + Vite projects with Screaming Architecture",
   "main": "generators/app/index.js",
   "files": [
